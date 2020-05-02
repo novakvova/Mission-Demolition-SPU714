@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7c54a97-de7d-4fda-98b5-8d1dc7f101b9" name="Default Changelist" comment="" />
+    <list default="true" id="c7c54a97-de7d-4fda-98b5-8d1dc7f101b9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Projectile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectile.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/_Scene_0.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/_Scene_0.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FollowCam.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FollowCam.cs" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,17 +34,30 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/FollowCam.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+            <state relative-caret-position="435">
+              <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
               <folding>
-                <marker date="1588404230424" expanded="true" signature="58:830" ph="{...}" />
-                <marker date="1588404230424" expanded="true" signature="179:233" ph="{...}" />
-                <marker date="1588404230424" expanded="true" signature="260:281" ph="{...}" />
-                <marker date="1588404230424" expanded="true" signature="309:828" ph="{...}" />
-                <marker date="1588404230424" expanded="true" signature="532:639" ph="/* Принудительно установить значение destination.z равным camZ, чтобы ... */" />
+                <marker date="1588406864878" expanded="true" signature="58:820" ph="{...}" />
+                <marker date="1588406864878" expanded="true" signature="253:307" ph="{...}" />
+                <marker date="1588406864878" expanded="true" signature="334:355" ph="{...}" />
+                <marker date="1588406864878" expanded="true" signature="383:818" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cloud.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+              <folding>
+                <marker date="1588407143091" expanded="true" signature="54:152" ph="{...}" />
+                <marker date="1588407143091" expanded="true" signature="81:102" ph="{...}" />
+                <marker date="1588407143091" expanded="true" signature="129:150" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -48,15 +65,26 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FollowCam.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Slingshot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cloud.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/FollowCam.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Slingshot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FollowCam.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/.idea.Mission Demolition/.idea/vcs.xml" />
       </list>
     </option>
   </component>
@@ -66,6 +94,7 @@
     <option name="width" value="883" />
     <option name="height" value="500" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -107,12 +136,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588401877363</updated>
-      <workItem from="1588401881530" duration="3134000" />
+      <workItem from="1588401881530" duration="3542000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3134000" />
+    <option name="totallyTimeSpent" value="3542000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -185,14 +214,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/FollowCam.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+        <state relative-caret-position="435">
+          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
           <folding>
-            <marker date="1588404230424" expanded="true" signature="58:830" ph="{...}" />
-            <marker date="1588404230424" expanded="true" signature="179:233" ph="{...}" />
-            <marker date="1588404230424" expanded="true" signature="260:281" ph="{...}" />
-            <marker date="1588404230424" expanded="true" signature="309:828" ph="{...}" />
-            <marker date="1588404230424" expanded="true" signature="532:639" ph="/* Принудительно установить значение destination.z равным camZ, чтобы ... */" />
+            <marker date="1588406864878" expanded="true" signature="58:820" ph="{...}" />
+            <marker date="1588406864878" expanded="true" signature="253:307" ph="{...}" />
+            <marker date="1588406864878" expanded="true" signature="334:355" ph="{...}" />
+            <marker date="1588406864878" expanded="true" signature="383:818" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cloud.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding>
+            <marker date="1588407143091" expanded="true" signature="54:152" ph="{...}" />
+            <marker date="1588407143091" expanded="true" signature="81:102" ph="{...}" />
+            <marker date="1588407143091" expanded="true" signature="129:150" ph="{...}" />
           </folding>
         </state>
       </provider>

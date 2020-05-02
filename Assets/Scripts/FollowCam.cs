@@ -2,6 +2,8 @@
 
 public class FollowCam : MonoBehaviour
 {
+    public float easing = 0.05f;
+    public Vector2 minXY = Vector2.zero;
     static public GameObject POI;
     [Header("Set Dynamically")]
     public float camZ;
@@ -18,16 +20,14 @@ public class FollowCam : MonoBehaviour
     
     void FixedUpdate()
     {
-         //Однострочная версия if не требует фигурных скобок
         if (POI == null) return;
-        // Получить позицию интересующего объекта
         Vector3 destination = POI.transform.position; 
         
-        // Принудительно установить значение destination.z равным camZ, чтобы
-        // отодвинуть камеру подальше
+        destination.x = Mathf.Max(minXY.x, destination.x);
+        destination.y = Mathf.Max(minXY.y, destination.y);
+        destination = Vector3.Lerp(transform.position, destination, easing);
         destination.z = camZ;
-        // Поместить камеру в позицию destination
         transform.position = destination;
-        //Camera.main.orthographicSize = destination.y + 10;
+        Camera.main.orthographicSize = destination.y + 10;
     }
 }
